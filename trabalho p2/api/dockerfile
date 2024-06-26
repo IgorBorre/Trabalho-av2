@@ -1,0 +1,7 @@
+FROM python:latest
+WORKDIR /api
+RUN pip install flask
+RUN pip install mysql-connector-python
+COPY . .
+EXPOSE 5000
+CMD ["python", "api/trabalho.py"]

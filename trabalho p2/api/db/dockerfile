@@ -1,0 +1,3 @@
+FROM mysql
+ENV MYSQL_ROOT_PASSWORD masterkey
+EXPOSE 3306
