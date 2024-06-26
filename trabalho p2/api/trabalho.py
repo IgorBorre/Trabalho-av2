@@ -3,7 +3,7 @@ from flask import Flask, jsonify
 
 
 conexao = mysql.connector.connect(
-    host='172.19.0.2',
+    host='172.18.0.2',
     port='3306',
     user='root',
     password='masterkey',
